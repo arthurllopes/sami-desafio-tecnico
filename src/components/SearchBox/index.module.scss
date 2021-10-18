@@ -1,0 +1,15 @@
+.SearchContainer {
+    display: flex;
+    align-items: center;
+    width: 60%;
+
+    input {
+        padding: 1rem .5rem;
+        border-radius: 8px;
+        margin-right: 8px;   
+        width: 100%;  
+    }
+}
+.Icon {
+    font-size: 1.5rem;
+}
