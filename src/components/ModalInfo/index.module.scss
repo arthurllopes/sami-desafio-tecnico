@@ -1,0 +1,60 @@
+.HeroInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HeroBiography{
+    padding: 0 .5rem;
+    div  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:.5rem;
+
+        p{
+            display: inline;
+        }
+    }
+    @media(max-width: 448px){
+        div{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+.HeroOccupation {
+    padding: 0 .5rem;
+    p {
+        padding:.5rem;
+    }
+}
+.HeroPowerstats {
+    padding: 0 .5rem;
+    
+    .Habilities {
+        padding: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        gap: 8px;
+
+        div{
+            display: flex;
+            align-items: center;
+            span {
+                margin-left: 4px;
+            }
+        }
+    }
+    @media(max-width: 448px){
+        width: 100%;
+        margin-left: -100px;
+        margin-top: 8px;
+        .Habilities {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: auto; 
+        }
+    
+    }
+}

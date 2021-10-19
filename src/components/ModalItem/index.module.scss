@@ -1,0 +1,39 @@
+.ModalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, .4);
+    display: flex;
+    align-items: center;
+}
+.ModalContent {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+
+    button {
+        position: absolute;
+        left: 90%
+    }
+}
+.HeroImage {
+    height: 200px;
+    margin-right: 12px;
+
+    img {
+        height: 100%;
+    }
+    @media(max-width: 448px){
+        height: 150px;
+    }
+}
