@@ -1,4 +1,4 @@
-# ig-news
+# samy-desafio-tecnico
 Desafio técnico da Samy. Desafio consiste em listar os super hérois utilizando a API [SuperHeroAPI](https://superheroapi.com/index.html). Utilizei Redux para gerenciamento de estado, inclusive para a funcionalidade do Modal. Além disso, adicionei um input de busca com uma técnica de SetTimeOut e useRef do React para evitar múltiplas chamadas a API durante o usuário estviver digitando. Utilizei Sass para estilização.
 
 
