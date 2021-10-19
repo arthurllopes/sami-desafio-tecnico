@@ -2,8 +2,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import HeroesList from '../../components/HeroesList'
 import { fetchItems } from '../../store/Items'
-import { useDispatch } from 'react-redux'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import Modal from '../../components/ModalItem'
 
 const HomePage = () => {
