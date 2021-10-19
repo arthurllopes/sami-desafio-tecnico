@@ -10,7 +10,7 @@ const HomePage = () => {
     const dispatch = useDispatch()
     const {modal} =  useSelector(state => state.modal)
     React.useEffect(() => {
-        dispatch(fetchItems('search/k'))
+        dispatch(fetchItems('search/m'))
     }, [dispatch])
     return (
         <>
